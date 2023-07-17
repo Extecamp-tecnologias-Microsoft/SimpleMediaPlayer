@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMediaPlayer", "SimpleMediaPlayer\SimpleMediaPlayer.csproj", "{FF3E0A76-2A4F-4D20-800E-B882C80AEA6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMediaPlayer", "SimpleMediaPlayer\SimpleMediaPlayer.csproj", "{96A969F5-486A-427B-8C3C-C700AC1FB5DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FF3E0A76-2A4F-4D20-800E-B882C80AEA6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF3E0A76-2A4F-4D20-800E-B882C80AEA6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF3E0A76-2A4F-4D20-800E-B882C80AEA6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF3E0A76-2A4F-4D20-800E-B882C80AEA6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A969F5-486A-427B-8C3C-C700AC1FB5DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A969F5-486A-427B-8C3C-C700AC1FB5DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A969F5-486A-427B-8C3C-C700AC1FB5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A969F5-486A-427B-8C3C-C700AC1FB5DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {95949387-9DBD-44E1-8654-6119B4F7BBC1}
+		SolutionGuid = {27E7D821-A0BF-4DBF-ADE6-22157EA851DF}
 	EndGlobalSection
 EndGlobal
