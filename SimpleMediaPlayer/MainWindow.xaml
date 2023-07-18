@@ -5,27 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SimpleMediaPlayer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="438" Width="658" 
+        Title="Simple Player" Height="440" Width="600" 
         xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml" ResizeMode="NoResize">
-    <Canvas Margin="0,0,0,4" Opacity="0.9" >
-        <Grid x:Name="___Sem_Nome_" Height="313" Width="631" Canvas.Top="2" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="5">
+    <Canvas Margin="0,0,2,2" Opacity="0.9" >
+        <Grid x:Name="___Sem_Nome_" Height="313" Width="590" Canvas.Top="2" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="5">
             <Grid.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="1"/>
                     <GradientStop Color="#FFF9F9F9" Offset="0"/>
                 </LinearGradientBrush>
             </Grid.Background>
-            <MediaElement x:Name="me" HorizontalAlignment="Left" Width="627" Height="315" VerticalAlignment="Top" />
+            <MediaElement x:Name="me" HorizontalAlignment="Left" Width="594" Height="320" VerticalAlignment="Top" />
         </Grid>
-        <Grid Height="81" Width="633" Canvas.Top="323" HorizontalAlignment="Left" VerticalAlignment="Center" Canvas.Left="5">
-            <Slider ValueChanged="Progress_Slider_ValueChanged" x:Name="Progress_Slider" Margin="3,5,1,31"/>
+        <Grid Height="81" Width="590" Canvas.Top="323" HorizontalAlignment="Left" VerticalAlignment="Center" Canvas.Left="5">
+            <Slider ValueChanged="Progress_Slider_ValueChanged" x:Name="Progress_Slider" Margin="3,5,18,31"/>
             <ui:Button Margin="5,41,0,0" Icon="Previous16" RenderTransformOrigin="0.487,0.501" VerticalAlignment="Top" />
             <ui:Button Click="Play_Button" Margin="55,41,0,0" Icon="Play16" RenderTransformOrigin="0.487,0.501" VerticalAlignment="Top" />
             <ui:Button Click="Pause_Button" Margin="105,41,0,0" Icon="Pause16" RenderTransformOrigin="0.487,0.501" VerticalAlignment="Top" />
             <ui:Button Margin="155,41,0,0" Icon="Next16" RenderTransformOrigin="0.487,0.501" VerticalAlignment="Top" />
             <ui:Button Click="Stop_Button" Margin="205,41,0,0" Icon="Stop16" RenderTransformOrigin="0.487,0.501" VerticalAlignment="Top" />
-            <ui:Button Click="Browser_Button" Margin="555,41,0,0" Icon="FolderOpen16" RenderTransformOrigin="0.487,0.501" VerticalAlignment="Top" />
-            <ui:Button Click="Exit_Button" Margin="600,41,0,0" Icon="Dismiss16" RenderTransformOrigin="0.487,0.501" VerticalAlignment="Top" />
+            <ui:Button Click="Browser_Button" Margin="480,41,0,0" Icon="FolderOpen16" RenderTransformOrigin="0.487,0.501" VerticalAlignment="Top" />
+            <ui:Button Click="Exit_Button" Margin="530,41,0,0" Icon="Dismiss16" RenderTransformOrigin="0.487,0.501" VerticalAlignment="Top" />
         </Grid>
     </Canvas>
 </ui:UiWindow>
